@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "right9code.android",
+  "name": "Android Suite",
+  "version": "1.0.0",
+  "author": "right9code",
+  "license": "MIT",
+  "description": "Complete Android Suite: Virtual Webcam (v4l2loopback), Camera Switcher, Screen Mirroring, Audio, APK Sideload & File Sharing.",
+  "kinds": [
+    "bar-widget",
+    "service"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml",
+    "service": "Service.qml"
+  },
+  "barWidget": {
+    "displayName": "Android Suite",
+    "description": "Android Webcam, Mirroring, and Device Manager.",
+    "category": "Hardware",
+    "aliases": ["android", "webcam", "scrcpy", "phone"],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
